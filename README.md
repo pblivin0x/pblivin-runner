@@ -2,7 +2,7 @@
 
 [PB Livin' Runner (pblivin-runner)](https://pblivin0x.github.io/pblivin-runner/) is a fork of the classic [trex runner game (t-rex-runner)](https://wayou.github.io/t-rex-runner/), in which a young developer (PB Livin') must dodge angry Waluigi and other obstacles. 
 
-![pblivin-runner game cast](assets/pblivin-runner.gif)
+![pblivin-runner game cast](assets/pblivin-runner.mov)
 
 ## Graphic Design 
 
