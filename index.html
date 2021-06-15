@@ -29,6 +29,46 @@
             </template>
         </div>
     </div>
+
+
+    <div align="center">
+        <div align="center">
+            <h2>Submit Score to Leaderboard</h2>
+            <script
+                src="https://code.jquery.com/jquery-3.4.1.js"
+                integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+                crossorigin="anonymous"></script>
+            <script>
+            <script>
+                function SubForm (){
+                    $.ajax({
+                        url:"https://api.apispreadsheets.com/data/14114/",
+                        type:"post",
+                        data:$("#myForm").serializeArray(),
+                        success: function(){
+                            alert("Form Data Submitted :)")
+                        },
+                        error: function(){
+                            alert("There was an error :(")
+                        }
+                    });
+                }
+            </script>
+            <form id="myForm">
+                <label>Runner</label>
+                <input name="Runner" />
+                <br/>
+                <label>Score</label>
+                <input name="Score" id="runnerscore" value="0" readonly/> 
+                <br/>
+            </form>
+            <button onclick='SubForm()'>Submit</button>
+        </div>
+        <div>
+            <h2>Leaderboard</h2>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE3sgaDCyZzthU2gAIyLpYwBBAiFJEUsvwOta09ZUWUOP9z2Kb6vxGeRluZNCMbULenLAFKJdPRmVf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+    </div>
 </body>
 
 <script>
