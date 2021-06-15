@@ -395,7 +395,7 @@
          * Create the touch controller. A div that covers whole screen.
          */
         createTouchController: function () {
-            this.touchController = document.getElementById('offline-resources');
+            this.touchController = document.getElementById('main-frame-error');
             this.touchController.className = Runner.classes.TOUCH_CONTROLLER;
             this.outerContainerEl.appendChild(this.touchController);
         },
