@@ -395,7 +395,7 @@
          * Create the touch controller. A div that covers whole screen.
          */
         createTouchController: function () {
-            this.touchController = document.getElementById('t');
+            this.touchController = document.createElement('div');
             this.touchController.className = Runner.classes.TOUCH_CONTROLLER;
             this.outerContainerEl.appendChild(this.touchController);
         },
@@ -2093,6 +2093,9 @@
                 distance).substr(-this.maxScoreUnits);
 
             this.highScore = ['10', '11', ''].concat(highScoreStr.split(''));
+
+            var formScoreStr = highScoreStr.replace(/^0+/, '');            
+            document.getElementById('runnerscore').setAttribute('value', formScoreStr);
         },
 
         /**
