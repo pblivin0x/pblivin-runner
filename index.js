@@ -2091,9 +2091,6 @@
             distance = this.getActualDistance(distance);
             var highScoreStr = (this.defaultString +
                 distance).substr(-this.maxScoreUnits);
-            
-            var formScoreStr = highScoreStr.replace(/^0+/, '');            
-            document.getElementById('runnerscore').setAttribute('value', formScoreStr);
 
             this.highScore = ['10', '11', ''].concat(highScoreStr.split(''));
         },
