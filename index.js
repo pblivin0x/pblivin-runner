@@ -397,7 +397,7 @@
         createTouchController: function () {
             this.touchController = document.createElement('div');
             this.touchController.className = Runner.classes.TOUCH_CONTROLLER;
-            this.containerEl.appendChild(this.touchController);
+            this.canvas.appendChild(this.touchController);
         },
 
         /**
