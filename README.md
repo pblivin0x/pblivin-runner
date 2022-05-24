@@ -4,10 +4,6 @@
 
 ![](assets/pblivin-runner.gif)
 
-## Graphic Design 
-
-Special shoutout to my friend [Nikki Mantis](https://www.nikkimantis.com/), who helped me with the graphic design. She is a pleasure to work with and does take on commissioned work!
-
 ## Acknowledgements
-* [Nikki Mantis](https://www.nikkimantis.com/)
+* Graphic Design [[Nikki Mantis](https://www.nikkimantis.com/)]
 * Dinosaur Game [[Source Code](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7)] [[Wikipedia](https://en.wikipedia.org/wiki/Dinosaur_Game)]
